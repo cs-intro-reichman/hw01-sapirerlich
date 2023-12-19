@@ -3,6 +3,9 @@
  */
 public class AddTwo {
 	public static void main(String[] args) {
-		// Put your code here	
+		// Declares two integer variables and sets them according to the command line arguments
+		int a = Integer.parseInt(args[0]);
+        int b = Integer.parseInt(args[1]);
+        System.out.println(a + " + " + b + " = " + (a + b));
 	}
 }
